@@ -1,0 +1,391 @@
+Localização das linhas css
+
+
+Historia do povo Xakriabá 
+Linha 55
+--------------------------------------------
+
+
+css 
+
+.logo-img1{
+  display: flex;
+  width: 27rem;
+  padding: 5rem 4rem 5rem 13rem;
+  
+ }
+.Inicio .Inicio1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+size: cover;
+}
+.logo-povo-xakriaba {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20rem;
+  
+}
+.logo-text p{
+  text-align: justify;
+  padding: 1.3rem 2rem 3rem 1rem;
+  font-size: larger;
+  font-family: cursive;
+  
+}
+.logo-img1  {
+  display: flex;
+ 
+  padding: 5rem 3rem;
+  width: 40rem;
+  border-radius: 10px;
+  
+
+}
+
+/*Historia do Povo Xakriabá*/
+/*Historia do Povo Xakriabá*/
+/*Historia do Povo Xakriabá*/
+/*Historia do Povo Xakriabá*/
+/*Historia do Povo Xakriabá*/
+/*Historia do Povo Xakriabá*/
+
+
+.historia{
+ display: flex;
+ justify-content: center;
+
+}
+.historia a{
+  text-decoration: none;
+  color: black;
+  
+}
+.historia p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+}
+.historia img{
+  border-radius: 10px;
+}
+.localização img{
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  align-items: center;
+ border-radius: 10px;
+ 
+}
+.localização {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 995px) {
+
+ #text1{
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+ }
+
+ .Inicio1{
+  display: flex;
+
+ }
+ .Inicio1 p{
+  display: flex;
+  flex-direction: row;  
+ }
+
+
+fim do css
+
+
+texto {
+
+
+
+ 
+}
+
+
+
+html [
+  <div> <img class="logo-img1" src="img/fogo.png" alt></div>
+                <div class="logo-text">
+                    <img class="logo-povo-xakriaba" src="img/logo.png">
+                    <p id="text1"></p>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="historia">
+            <a href="historia.html">
+                <img src="img/rosalino.png" alt>
+                <p>História Do Povo Xakriabá.</p>
+            </a>
+        </div>
+        <div class="localização">
+            <a href="localização"><img src="img/localização.png" alt="">
+            <p>localização</p>
+            </a>
+        </div>
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+ol,
+li,
+ul {
+  list-style: none;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  font-size: x-large;
+}
+.nav-bar li {
+  padding: 2rem;
+}
+
+#logo{
+  align-items: center;
+  width: 20rem;
+  justify-content: center;
+}
+#principal{
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+  
+}
+.fire{
+  display: flex; 
+  padding: 1.3rem;
+}
+
+.text-fire{
+  display: flex;
+  flex-direction: row;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.text {
+  font-family: "Asap Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  padding: 2rem;
+  text-align: justify;
+
+}
+.text p{
+  line-height: 1.2rem;
+  word-spacing: 5em;
+}
+
+
+
+/*elementos prontos */
+/* From Uiverse.io by eduardo-amaro-maciel */ 
+.scroll-1::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.scroll-1::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: #888;
+}
+
+.container * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  overflow-x: scroll;
+  padding: 24px;
+  width: 300px;
+  scroll-snap-type: x mandatory;
+  scroll-padding-top: 24px;
+  border-radius: 8px;
+  gap: 20px;
+}
+
+.container .card {
+  flex: 0 0 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #141414;
+  scroll-snap-align: start;
+}
+
+.card .card__image {
+  flex: 1;
+  height: 140px;
+}
+
+.card:nth-child(1) .card__image {
+  background-image: linear-gradient(
+      to right top,
+      #051937, 
+      #004d7a, 
+      #008793, 
+      #00bf72, 
+      #a8eb12
+  );
+}
+
+.card:nth-child(2) .card__image {
+  background-image: linear-gradient(
+    to right top, 
+    #dc09a5, 
+    #ce00b4, 
+    #ba00c5, 
+    #9c00d8, 
+    #6f12eb
+  );
+}
+
+.card:nth-child(3) .card__image {
+  background-image: linear-gradient(
+    to right top, 
+    #dc1009, 
+    #e55f00, 
+    #e49200, 
+    #dac000, 
+    #c7eb12
+  );
+}
+
+.card .card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.card .card__content .card__title {
+  font-size: 32px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.card .card__content .card__describe {
+  color: #fff;
+  font-size: 16px;
+}
+
+.element-ready {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.hide{
+  display: none;
+}
+/*elemntos pronto*/
+.logo-mobile{
+  display: none;
+}
+
+@media screen and (max-width: 400px)
+{
+*{
+  padding: none;
+  justify-items: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+  .hide {
+    display: block;
+  }
+  .text-fire{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 190%;
+  }
+  .text-fire p{
+   font-size: xx-large; 
+  }
+  body{
+   height:100%; width:50%; 
+  }
+  html{
+    width: auto;
+  }
+  body{
+    width: auto;
+  }
+  .fire{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+#principal{
+  display: none;
+}
+.logo-mobile{
+  display: flex;
+  justify-content: center;
+}
+}
+  
+
+
+adc postion absolute no dic com imagens
+
+
+território e luta pela terra ---- por dentro do topico historia
+
+
+
+se for necessario por a nav bar antiga {
+
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  font-size: x-large;
+  align-items: center;
+}
+
+
+
+    <div class="sub-pagina-historia">
+    <a href="historia.html"><img src="">
+        <div class="sub-pag-img1"></div><img src="img/povoxakriaba/Sub-pag história/1.png" alt="Abraço-coletivo">
+        
+        
+    </a>
+    <a href="historia.html"><img src=""><img src="img/povoxakriaba/Sub-pag história/2.png" alt="chacina" >
+       
+    <a href="historia.html"><img src=""><img src="img/povoxakriaba/Sub-pag história/3.png" alt="" ></a>
+    <a href="historia.html"><img src=""><img src="img/povoxakriaba/Sub-pag história/4.png" alt="ATL" ></a>
+    
+</div>
