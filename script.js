@@ -46,3 +46,14 @@ const menuHTML1 = `
 document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("menu-mobile").innerHTML = menuHTML1;
 });
+
+
+ // Função para abrir o modal
+ function openModal() {
+  document.getElementById('modal').classList.add('active');
+}
+
+// Função para fechar o modal
+function closeModal() {
+  document.getElementById('modal').classList.remove('active');
+}
