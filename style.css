@@ -1061,3 +1061,197 @@ justify-content: center;
   background: #cc0000;
 }
 /*fim do modal*/
+
+
+
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+/*ATL - ACAPAMENTO TERRA LIVRE */
+
+.banner-atl {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  width: 100%;
+  height: 30rem;
+  border: none;
+  background: url(img/avulso/banner-atl.png);
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center; /* Garante que o texto dentro do banner esteja centralizado */
+}
+
+.atl-video {
+  display: flex;
+  justify-content: center; /* Centraliza o vídeo */
+  width: 100%;
+  margin: 20px 0; /* Adiciona margem acima e abaixo do vídeo */
+}
+
+.atl-topic1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Centraliza o conteúdo dentro deste contêiner */
+  align-items: flex-start; /* Alinha o conteúdo do topo */
+  padding: 2rem; /* Adiciona espaçamento interno */
+}
+
+.atl-topic1-img1 img {
+  border-radius: 100%;
+  padding: 2rem;
+}
+
+.atl-topic1-text1 {
+  flex: 1;
+  font-family: comic system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.banner-atl {
+  display: flex;
+  width: 100%;
+  height: 30rem;
+  border: none;
+  justify-content: center;
+  background: url(img/avulso/banner-atl.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.atl-video{
+  display: flex;
+  width: 100%;
+}
+.atl-topic1-text1{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: justify;
+  font-size: larger;
+  max-width: 40%;
+  padding: 2rem;
+}
+.atl-topic1{
+  display: flex;
+  flex-direction: row;
+  
+}
+.atl-topic1-img1 img {
+  border-radius: 100%;
+  padding: 2rem;
+
+}
+.atl-topic2{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  font-size: larger;
+}
+.atl-topic2 img{
+padding: 2rem;
+border-radius: 100%;
+}
+.atl-topic2-text1{
+  display: flex;
+  align-items: center;
+  
+  text-align: justify;
+  
+  
+}
+@media screen and (max-width: 470px) {
+  .atl-video {
+    display: flex;
+    width: 100%; /* Ajusta o vídeo para usar a largura total da tela */
+    justify-content: center;
+  }
+
+  .atl-topic1 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: center;
+  }
+
+  .atl-topic1-text1 {
+    justify-content: center;
+    width: 100%; /* Garante que o texto ocupe toda a largura da tela em dispositivos menores */
+    max-width: 100%; /* Remove o limite de largura para preencher a tela completamente */
+    padding: 1rem; /* Reduz o espaçamento interno para melhor adaptação em telas pequenas */
+    
+  }
+ .atl-body{
+  display: flex;
+  width: auto;
+ }
+ 
+}
+.topic2-text{
+  display: flex;
+}
+
+/*slideshow*/
+.slideshow {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.slideshow img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  animation: fade 3s infinite;
+}
+
+.slideshow a {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 1;
+  }
+  53% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
