@@ -1,0 +1,116 @@
+/* Definindo cores e tipografia */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F3F4F6;
+    color: #2C3E50;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  
+  /* Cabeçalho */
+  .header {
+    background: linear-gradient(135deg, #FF5733, #FFC300);
+    text-align: center;
+    padding: 80px 20px;
+    color: white;
+  }
+  
+  .header h1 {
+    font-size: 3em;
+    margin: 0;
+    animation: fadeIn 2s ease-out;
+  }
+  
+  .header p {
+    font-size: 1.5em;
+    margin-top: 10px;
+  }
+  
+  /* Sessão Principal */
+  .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+    min-height: 100vh;
+  }
+  
+  .content {
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .section h2 {
+    font-size: 2.5em;
+    color: #FF5733;
+    margin-bottom: 20px;
+  }
+  
+  .section p {
+    font-size: 1.2em;
+    color: #34495E;
+  }
+  
+  img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Efeitos de animação */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /* Animações ao rolar */
+  .section:nth-child(odd) .content {
+    animation: fadeIn 1.5s ease-out;
+  }
+  
+  .section:nth-child(even) .content {
+    animation: slideIn 1.5s ease-out;
+  }
+  
+  /* Rodapé */
+  .footer {
+    background-color: #FF5733;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 1em;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .header h1 {
+      font-size: 2.5em;
+    }
+  
+    .section h2 {
+      font-size: 2em;
+    }
+  
+    .content {
+      padding: 20px;
+    }
+  }
+  
