@@ -1,24 +1,17 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const sections = document.querySelectorAll(".section");
-  
-    const options = {
-      threshold: 0.5,
-      rootMargin: "0px 0px -150px 0px"
-    };
-  
-    const appearOnScroll = new IntersectionObserver(function(entries, appearOnScroll) {
-      entries.forEach(entry => {
-        if (!entry.isIntersecting) {
-          return;
-        } else {
-          entry.target.classList.add("appear");
-          appearOnScroll.unobserve(entry.target);
-        }
-      });
-    }, options);
-  
-    sections.forEach(section => {
-      appearOnScroll.observe(section);
-    });
-  });
-  
+// script.js
+document.addEventListener('DOMContentLoaded', () => {
+  console.log('Página carregada com sucesso! As mulheres Xakriabá são incríveis.');
+});
+
+window.addEventListener("scroll", () => {
+  const backToTopButton = document.querySelector(".back-to-top");
+  if (window.scrollY > 300) {
+    backToTopButton.classList.add("visible");
+  } else {
+    backToTopButton.classList.remove("visible");
+  }
+});
+
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}

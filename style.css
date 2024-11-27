@@ -16,11 +16,59 @@ ul {
 .nav-bar li {
   padding: 2rem;
 }
+.text{
+  background-color: #f1f1f1;
+  border-radius: 46px;
+  font-size: larger;
+  text-align: justify;
+}
+.nav-bar{
+  color: white;
+  text-decoration: none;
+}
+.nav{
+  text-decoration: none;
+}
 
+.body-index{
+  background: url('img/fogueira.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  text-decoration: none;
+  
+}
+a{
+  text-decoration: none;
+}
+
+a:link {
+  color: rgb(253, 253, 253);
+}
+
+/* link que foi visitado */
+a:visited {
+   color: rgb(255, 255, 255);
+}
+
+a:hover{
+  color: #0056b3;
+  font-size: larger;
+  transition-duration: 90ms;
+
+}
+
+.container-de-cards{
+  color: #f1f1f1;
+  font-style: normal;
+  font-size: larger;
+}
 #logo {
   align-items: center;
   width: 20rem;
   justify-content: center;
+  filter: drop-shadow(2px 2px 30px white);
 }
 #principal {
   display: flex;
@@ -88,7 +136,7 @@ ul {
 
 /*fim dos cards*/
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 600px) {
 .menu-open-button{
   
 }
@@ -751,7 +799,7 @@ border-radius: 10px;
   text-align: justify;
   font-size:x-large;
 }
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 600px) {
 
   .chacina-foto-text2  {
     font-size: 2.0rem;
@@ -973,7 +1021,7 @@ flex-direction: column;
 justify-content: center;
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 600px) {
 
   .juventude-cards{
     display: flex;
@@ -1193,7 +1241,7 @@ border-radius: 100%;
   color: white;
   
 }
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 600px) {
   .atl-video {
     display: flex;
     width: 100%; /* Ajusta o vídeo para usar a largura total da tela */
@@ -1251,4 +1299,92 @@ align-items: center;
 }
 .atl-video-plenaria{
   max-width: 500px;
+}
+
+
+
+.card-body{
+  background-color: #290d6ba9 ;
+}
+/* Container principal */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Contêiner de texto */
+.text-content {
+  max-width: 800px;
+  animation: fadeIn 2s ease-out;
+}
+
+/* Título */
+.title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  color: #ffffff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  opacity: 0;
+  animation: slideIn 1.5s ease-in-out forwards;
+}
+
+/* Subtítulo */
+.subtitle {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  opacity: 0;
+  animation: fadeInUp 2s 1.5s forwards;
+  color: white;
+}
+
+/* Animações */
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+      transform: translateY(-30px);
+      opacity: 0;
+  }
+  100% {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+  .title {
+      font-size: 2.5rem;
+  }
+
+  .subtitle {
+      font-size: 1.3rem;
+  }
 }

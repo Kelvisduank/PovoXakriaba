@@ -4,9 +4,9 @@ const menuHTML = `
     <ul>
     <ol class="nav-bar">
             <a href="index.html"><li class="nav">Home</li></a>
-            <li class="nav">Contato</li>
-            <li class="nav">Apoio</li>
-            <li class="nav">Sobre</li>
+           <a href="contato/contato.html"> <li class="nav">Contato</li></a>
+          <a href="https://www.vakinha.com.br/3779320">  <li class="nav">Apoio</li></a>
+            <a href="sobre/sobre.html"><li class="nav">Sobre</li></a>
         </ol>
     </ul>
 </nav>
